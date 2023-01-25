@@ -12,8 +12,8 @@ public class MinMax {
         for (int i = 0; i < n; i++) {
             arr[i] = in.nextInt();
         }
-        System.out.println("Max Element = " + getMax(arr));
-        System.out.println("Min Element = " + getMin(arr));
+        System.out.println("The Max Element = " + getMax(arr));
+        System.out.println("The Min Element = " + getMin(arr));
     }
 
     public static int getMax(int[] arr) {
